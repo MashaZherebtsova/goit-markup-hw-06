@@ -62,32 +62,37 @@
       </div>
       <div class="backdrope is-hidden" data-modal>
         <div class="modal">
-        <button class="close-btn" data-modal-close type="button"><svg class="modal-hero-icon" width="30" height="30">
-          <use href="./img/icons.svg#icon-close"></use>
-        </svg>
-        </button>
-        
+               
           <p class="form-inform">Залиште свої дані, ми вам передзвонимо</p>
+          <button class="close-btn" data-modal-close type="button"><svg class="modal-hero-icon" width="11" height="11">
+            <use href="./img/icons.svg#icon-Vector-5"></use>
+          </svg>
+          </button>
         <div class= "form-field" >
           <label for="name" class="form-label">Ім'я</label>
+        <div class="form-field-list">
+          <input type="text" name="name" id="name"/>
           <svg class="person-icon" width="12" height="12">
             <use href="./img/icons.svg#icon-person-black-18dp-1"></use>
-          </svg>
-          <input type="text" name="name" id="name"/>
+          </svg> </div>
         </div>
         <div class="form-field">
           <label for="tel" class="form-label">Телефон</label>
+          <div class="form-field-list">
+          <input class="form-input" type="tel" name="tel" id="tel"/>
           <svg class="person-icon" width="13" height="13">
             <use href="./img/icons.svg#icon-phone-black-18dp-1"></use>
-          </svg>
-          <input class="form-input" type="tel" name="tel" id="tel"/>
+          </svg></div>
+          
         </div>
         <div class="form-field">
           <label for="mail" class="form-label">Пошта</label>
+          <div class="form-field-list">
+          <input class="form-input" type="email" name="mail" id="mail"/>
           <svg class="person-icon" width="15" height="12">
             <use href="./img/icons.svg#icon-Vector-1"></use>
-          </svg>
-          <input class="form-input" type="email" name="mail" id="mail"/>
+          </svg></div>
+          
         </div>
         <div class="form-field">
           <label for="comment" class="form-label">Коментар</label>
@@ -104,11 +109,12 @@
           </svg>
           <span class="">Погоджуюся з розсилкою та приймаю <a class="form-link" href="Умови договору">Умови договору</a></span>
         </label>
-          <button class="form-btn " data-modal-close type="button">Відправити</button>
-          
+         
         </div>
-        
-      </div>
+        <button class="form-btn " data-modal-close type="button">Відправити</button>
+              </div>
+      
+      
     </section>
 
     <section class="details">
