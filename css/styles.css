@@ -200,16 +200,7 @@ font-weight: 700;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-btn:hover,
-.header-btn:focus {
-    cursor:pointer;
-list-style: none;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-transition-property: var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 
 .btn:hover, 
 .btn:focus {
@@ -218,7 +209,7 @@ list-style: none;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 background-color: var(--accent-color);
-
+color: var(--third-color);
 }
 .btn {
     transition-property: var(--accent-color);
@@ -799,7 +790,7 @@ width: 448px;
 .form-field input {
     margin: 0;
     height: 40px;
-    padding-left: 30px;
+    padding-left: 42px;
     outline: none;
     width: 100%;
    
@@ -854,9 +845,9 @@ opacity: 1;
 
 .person-icon {
     position: absolute;
-    top: 14px;
+    top: 11px;
     left: 15px;
-    bottom: 14px;
+    bottom: 12px;
     display: inline-block;
     fill: currentColor;
     
